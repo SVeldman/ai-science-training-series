@@ -2,8 +2,10 @@
 
 ## Sambanova:
 I ran the hands-on excercise with the origional flag values, saved the output log and pushed it to my GitHub here:
+https://github.com/SVeldman/ai-science-training-series/blob/main/07_AITestbeds/Sambanova/bert/BertLarge_HW_compile_log_base.out
 
 I then changed the --ntasks flag to 8 and the --ntasks-per-node to 8, saved the output log and pushed it to my GitHub here:
+https://github.com/SVeldman/ai-science-training-series/blob/main/07_AITestbeds/Sambanova/bert/BertLarge_HW_compile_log_changed.out
 
 
 ## Graphcore:
