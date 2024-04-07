@@ -24,7 +24,16 @@ Doubling the number of epochs increased the test set accuracy slightly (about 0.
 
 
 ## Cerebras:
+I first ran the hands-on exercise unchanged:
+![(Screenshot%202024-04-07%20021234%20-%20Original%20Run.jpg)](https://github.com/SVeldman/ai-science-training-series/blob/main/07_AITestbeds/Cerebras/Screenshot%202024-04-07%20021234%20-%20Original%20Run.jpg)
 
+I then re-ran the example with a batch size of 512:
+![(Screenshot%202024-04-057%20024916%20-%20Batch%20Size%20512.jpg)](https://github.com/SVeldman/ai-science-training-series/blob/main/07_AITestbeds/Cerebras/Screenshot%202024-04-07%20024916%20-%20Batch%20Size%20512.jpg)
+
+And re-ran it again with a batch size of 2048:
+![(Screenshot%202024-04-07%20021234%20-%20Batch%20Size%202048.jpg)](https://github.com/SVeldman/ai-science-training-series/blob/main/07_AITestbeds/Cerebras/Screenshot%202024-04-07%20004356%20-%20Batch%20Size%202048.jpg)
+
+The first run took 25 minutes (it began at 05:47:29 and finished at 06:12:26). The second run took about 24 mins (began at 06:24:42 and finished at 06:48:53). The third run took (began at 06:54:08 and finished at ).
 
 ## Groq:
 I first ran the hands-on exercise with the default/dummy inputs:
