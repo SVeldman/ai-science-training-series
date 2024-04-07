@@ -9,6 +9,7 @@ https://github.com/SVeldman/ai-science-training-series/blob/main/07_AITestbeds/S
 
 These changes resulted in a dramatic reduction in Duration, and a model that trained much faster. I suspect that these changes did not result in a more useful model (most likely the opposite).
 
+Note: When I opened the slurm-<job number>.out file, it only pointed to the compile logs for both jobs. I checked the scheduling que to verify that the jobs completed but could not find a separate training log. I did save the slurm file and pushed it to my GitHub here for reference: https://github.com/SVeldman/ai-science-training-series/blob/main/07_AITestbeds/Sambanova/bert/slurm-30451.out
 
 ## Graphcore:
 I first ran mnist_poptorch.py as-written. Here is a screenshot of my results:
