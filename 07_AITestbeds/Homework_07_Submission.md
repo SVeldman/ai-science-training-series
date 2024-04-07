@@ -27,4 +27,13 @@ Doubling the number of epochs increased the test set accuracy slightly (about 0.
 
 
 ## Groq:
+I first ran the hands-on exercise with the default/dummy inputs:
+![(Screenshot%202024-04-07%20002840%20-%20Original%20Run.jpg)](https://github.com/SVeldman/ai-science-training-series/blob/main/07_AITestbeds/Groq/Screenshot%202024-04-07%20002840%20-%20Original%20Run.jpg)
 
+I then set up my own custom inputs, changing the max sequence length to 256:
+![(Screenshot%202024-04-07%20004015%20-%20Custom%20Input.jpg)](https://github.com/SVeldman/ai-science-training-series/blob/main/07_AITestbeds/Groq/Screenshot%202024-04-07%20004015%20-%20Custom%20Input.jpg)
+
+I re-ran the model and got the following results:
+![(Screenshot%202024-04-07%20011349%20-%20Custom%20Input%20Results.jpg)](https://github.com/SVeldman/ai-science-training-series/blob/main/07_AITestbeds/Groq/Screenshot%202024-04-07%20011349%20-%20Custom%20Input%20Results.jpg)
+
+The changes I made to the inputs did not have an impact on the model's accuracy, but did alter the latency and IPS metrics.
