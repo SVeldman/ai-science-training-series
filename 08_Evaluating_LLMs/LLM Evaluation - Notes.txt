@@ -1,0 +1,30 @@
+Notes:
+
+Extrinsic Evaluation:
+    - Perplexity - how well predicts next word
+    - Vindi score to assess "diversity"
+
+Intrinsic Evaluation:
+    - Sentiment analysis (F1 score)
+    - Text summarization (how is this measured?)
+
+Human evaluation:
+    - 
+
+Benchmarks:
+    - GLUE for natural language understanding
+    - DecodingTrust for fairness, stereotype and bias, robustness
+    - HELM (Holistic Evaluation of Language Models)
+        Metrics:
+            - Accuracy
+            = Calibration
+            - Robustness
+            - fairness
+            - bias
+            - Toxicity
+            - Efficiency
+        Scenarios:
+            - Information retrieval
+            - summarization
+        Targeted Scenarios:
+            -
